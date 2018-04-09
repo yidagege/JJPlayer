@@ -1,0 +1,671 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF047560207A14BB00B223A5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF04755F207A14BB00B223A5 /* AppDelegate.m */; };
+		DF047563207A14BB00B223A5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF047562207A14BB00B223A5 /* ViewController.m */; };
+		DF047566207A14BB00B223A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF047564207A14BB00B223A5 /* Main.storyboard */; };
+		DF047568207A14BB00B223A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF047567207A14BB00B223A5 /* Assets.xcassets */; };
+		DF04756B207A14BB00B223A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF047569207A14BB00B223A5 /* LaunchScreen.storyboard */; };
+		DF04756E207A14BB00B223A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF04756D207A14BB00B223A5 /* main.m */; };
+		DF047578207A14BB00B223A5 /* JJPlayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF047577207A14BB00B223A5 /* JJPlayTests.m */; };
+		DF047583207A14BB00B223A5 /* JJPlayUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF047582207A14BB00B223A5 /* JJPlayUITests.m */; };
+		DF0475B2207A1F2900B223A5 /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DF0475B1207A1F2800B223A5 /* libz.1.2.5.tbd */; };
+		DF0475B4207A1F3300B223A5 /* libbz2.1.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DF0475B3207A1F3300B223A5 /* libbz2.1.0.tbd */; };
+		DF0475B6207A1F4300B223A5 /* libiconv.2.4.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DF0475B5207A1F4300B223A5 /* libiconv.2.4.0.tbd */; };
+		DF0475B8207A1F4D00B223A5 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF0475B7207A1F4D00B223A5 /* CoreMedia.framework */; };
+		DF0475BA207A1F5600B223A5 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF0475B9207A1F5500B223A5 /* VideoToolbox.framework */; };
+		DF0475BE207B179000B223A5 /* libc++abi.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DF0475BD207B178F00B223A5 /* libc++abi.tbd */; };
+		DF0475C0207B17FB00B223A5 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DF0475BF207B17FB00B223A5 /* libstdc++.tbd */; };
+		DF0475D0207B1A8100B223A5 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF0475C9207B1A5400B223A5 /* IJKMediaFramework.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF047574207A14BB00B223A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF047553207A14BB00B223A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF04755A207A14BB00B223A5;
+			remoteInfo = JJPlay;
+		};
+		DF04757F207A14BB00B223A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF047553207A14BB00B223A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF04755A207A14BB00B223A5;
+			remoteInfo = JJPlay;
+		};
+		DF0475C8207B1A5400B223A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF0475C2207B1A5400B223A5 /* IJKMediaPlayer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E654EA8A1B6B27E600B0F2D0;
+			remoteInfo = IJKMediaFramework;
+		};
+		DF0475CA207B1A5400B223A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF0475C2207B1A5400B223A5 /* IJKMediaPlayer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5450B0431E63EA4300568494;
+			remoteInfo = IJKMediaFrameworkWithSSL;
+		};
+		DF0475CC207B1A5400B223A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF0475C2207B1A5400B223A5 /* IJKMediaPlayer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E654EA941B6B27E600B0F2D0;
+			remoteInfo = IJKMediaFrameworkTests;
+		};
+		DF0475CE207B1A7C00B223A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF0475C2207B1A5400B223A5 /* IJKMediaPlayer.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E654EA891B6B27E600B0F2D0;
+			remoteInfo = IJKMediaFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF04755B207A14BB00B223A5 /* JJPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JJPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF04755E207A14BB00B223A5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DF04755F207A14BB00B223A5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DF047561207A14BB00B223A5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DF047562207A14BB00B223A5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DF047565207A14BB00B223A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF047567207A14BB00B223A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF04756A207A14BB00B223A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF04756C207A14BB00B223A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF04756D207A14BB00B223A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF047573207A14BB00B223A5 /* JJPlayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JJPlayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF047577207A14BB00B223A5 /* JJPlayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJPlayTests.m; sourceTree = "<group>"; };
+		DF047579207A14BB00B223A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF04757E207A14BB00B223A5 /* JJPlayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JJPlayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF047582207A14BB00B223A5 /* JJPlayUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJPlayUITests.m; sourceTree = "<group>"; };
+		DF047584207A14BB00B223A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF0475B1207A1F2800B223A5 /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
+		DF0475B3207A1F3300B223A5 /* libbz2.1.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.1.0.tbd; path = usr/lib/libbz2.1.0.tbd; sourceTree = SDKROOT; };
+		DF0475B5207A1F4300B223A5 /* libiconv.2.4.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.2.4.0.tbd; path = usr/lib/libiconv.2.4.0.tbd; sourceTree = SDKROOT; };
+		DF0475B7207A1F4D00B223A5 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		DF0475B9207A1F5500B223A5 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		DF0475BD207B178F00B223A5 /* libc++abi.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++abi.tbd"; path = "usr/lib/libc++abi.tbd"; sourceTree = SDKROOT; };
+		DF0475BF207B17FB00B223A5 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		DF0475C2207B1A5400B223A5 /* IJKMediaPlayer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = IJKMediaPlayer.xcodeproj; path = "../ijkplayer-ios/ios/IJKMediaPlayer/IJKMediaPlayer.xcodeproj"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF047558207A14BB00B223A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF0475D0207B1A8100B223A5 /* IJKMediaFramework.framework in Frameworks */,
+				DF0475C0207B17FB00B223A5 /* libstdc++.tbd in Frameworks */,
+				DF0475BE207B179000B223A5 /* libc++abi.tbd in Frameworks */,
+				DF0475BA207A1F5600B223A5 /* VideoToolbox.framework in Frameworks */,
+				DF0475B8207A1F4D00B223A5 /* CoreMedia.framework in Frameworks */,
+				DF0475B6207A1F4300B223A5 /* libiconv.2.4.0.tbd in Frameworks */,
+				DF0475B4207A1F3300B223A5 /* libbz2.1.0.tbd in Frameworks */,
+				DF0475B2207A1F2900B223A5 /* libz.1.2.5.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF047570207A14BB00B223A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF04757B207A14BB00B223A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF047552207A14BB00B223A5 = {
+			isa = PBXGroup;
+			children = (
+				DF0475C2207B1A5400B223A5 /* IJKMediaPlayer.xcodeproj */,
+				DF04755D207A14BB00B223A5 /* JJPlay */,
+				DF047576207A14BB00B223A5 /* JJPlayTests */,
+				DF047581207A14BB00B223A5 /* JJPlayUITests */,
+				DF04755C207A14BB00B223A5 /* Products */,
+				DF04759E207A154400B223A5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DF04755C207A14BB00B223A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF04755B207A14BB00B223A5 /* JJPlay.app */,
+				DF047573207A14BB00B223A5 /* JJPlayTests.xctest */,
+				DF04757E207A14BB00B223A5 /* JJPlayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF04755D207A14BB00B223A5 /* JJPlay */ = {
+			isa = PBXGroup;
+			children = (
+				DF04755E207A14BB00B223A5 /* AppDelegate.h */,
+				DF04755F207A14BB00B223A5 /* AppDelegate.m */,
+				DF047561207A14BB00B223A5 /* ViewController.h */,
+				DF047562207A14BB00B223A5 /* ViewController.m */,
+				DF047564207A14BB00B223A5 /* Main.storyboard */,
+				DF047567207A14BB00B223A5 /* Assets.xcassets */,
+				DF047569207A14BB00B223A5 /* LaunchScreen.storyboard */,
+				DF04756C207A14BB00B223A5 /* Info.plist */,
+				DF04756D207A14BB00B223A5 /* main.m */,
+			);
+			path = JJPlay;
+			sourceTree = "<group>";
+		};
+		DF047576207A14BB00B223A5 /* JJPlayTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF047577207A14BB00B223A5 /* JJPlayTests.m */,
+				DF047579207A14BB00B223A5 /* Info.plist */,
+			);
+			path = JJPlayTests;
+			sourceTree = "<group>";
+		};
+		DF047581207A14BB00B223A5 /* JJPlayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DF047582207A14BB00B223A5 /* JJPlayUITests.m */,
+				DF047584207A14BB00B223A5 /* Info.plist */,
+			);
+			path = JJPlayUITests;
+			sourceTree = "<group>";
+		};
+		DF04759E207A154400B223A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF0475BF207B17FB00B223A5 /* libstdc++.tbd */,
+				DF0475BD207B178F00B223A5 /* libc++abi.tbd */,
+				DF0475B9207A1F5500B223A5 /* VideoToolbox.framework */,
+				DF0475B7207A1F4D00B223A5 /* CoreMedia.framework */,
+				DF0475B5207A1F4300B223A5 /* libiconv.2.4.0.tbd */,
+				DF0475B3207A1F3300B223A5 /* libbz2.1.0.tbd */,
+				DF0475B1207A1F2800B223A5 /* libz.1.2.5.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF0475C3207B1A5400B223A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF0475C9207B1A5400B223A5 /* IJKMediaFramework.framework */,
+				DF0475CB207B1A5400B223A5 /* IJKMediaFrameworkWithSSL.framework */,
+				DF0475CD207B1A5400B223A5 /* IJKMediaFrameworkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF04755A207A14BB00B223A5 /* JJPlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF047587207A14BB00B223A5 /* Build configuration list for PBXNativeTarget "JJPlay" */;
+			buildPhases = (
+				DF047557207A14BB00B223A5 /* Sources */,
+				DF047558207A14BB00B223A5 /* Frameworks */,
+				DF047559207A14BB00B223A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF0475CF207B1A7C00B223A5 /* PBXTargetDependency */,
+			);
+			name = JJPlay;
+			productName = JJPlay;
+			productReference = DF04755B207A14BB00B223A5 /* JJPlay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF047572207A14BB00B223A5 /* JJPlayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF04758A207A14BB00B223A5 /* Build configuration list for PBXNativeTarget "JJPlayTests" */;
+			buildPhases = (
+				DF04756F207A14BB00B223A5 /* Sources */,
+				DF047570207A14BB00B223A5 /* Frameworks */,
+				DF047571207A14BB00B223A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF047575207A14BB00B223A5 /* PBXTargetDependency */,
+			);
+			name = JJPlayTests;
+			productName = JJPlayTests;
+			productReference = DF047573207A14BB00B223A5 /* JJPlayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DF04757D207A14BB00B223A5 /* JJPlayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF04758D207A14BB00B223A5 /* Build configuration list for PBXNativeTarget "JJPlayUITests" */;
+			buildPhases = (
+				DF04757A207A14BB00B223A5 /* Sources */,
+				DF04757B207A14BB00B223A5 /* Frameworks */,
+				DF04757C207A14BB00B223A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF047580207A14BB00B223A5 /* PBXTargetDependency */,
+			);
+			name = JJPlayUITests;
+			productName = JJPlayUITests;
+			productReference = DF04757E207A14BB00B223A5 /* JJPlayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF047553207A14BB00B223A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = zhangyi35;
+				TargetAttributes = {
+					DF04755A207A14BB00B223A5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					DF047572207A14BB00B223A5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DF04755A207A14BB00B223A5;
+					};
+					DF04757D207A14BB00B223A5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DF04755A207A14BB00B223A5;
+					};
+				};
+			};
+			buildConfigurationList = DF047556207A14BB00B223A5 /* Build configuration list for PBXProject "JJPlay" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF047552207A14BB00B223A5;
+			productRefGroup = DF04755C207A14BB00B223A5 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = DF0475C3207B1A5400B223A5 /* Products */;
+					ProjectRef = DF0475C2207B1A5400B223A5 /* IJKMediaPlayer.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				DF04755A207A14BB00B223A5 /* JJPlay */,
+				DF047572207A14BB00B223A5 /* JJPlayTests */,
+				DF04757D207A14BB00B223A5 /* JJPlayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		DF0475C9207B1A5400B223A5 /* IJKMediaFramework.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = IJKMediaFramework.framework;
+			remoteRef = DF0475C8207B1A5400B223A5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DF0475CB207B1A5400B223A5 /* IJKMediaFrameworkWithSSL.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = IJKMediaFrameworkWithSSL.framework;
+			remoteRef = DF0475CA207B1A5400B223A5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DF0475CD207B1A5400B223A5 /* IJKMediaFrameworkTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = IJKMediaFrameworkTests.xctest;
+			remoteRef = DF0475CC207B1A5400B223A5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF047559207A14BB00B223A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF04756B207A14BB00B223A5 /* LaunchScreen.storyboard in Resources */,
+				DF047568207A14BB00B223A5 /* Assets.xcassets in Resources */,
+				DF047566207A14BB00B223A5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF047571207A14BB00B223A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF04757C207A14BB00B223A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF047557207A14BB00B223A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF047563207A14BB00B223A5 /* ViewController.m in Sources */,
+				DF04756E207A14BB00B223A5 /* main.m in Sources */,
+				DF047560207A14BB00B223A5 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF04756F207A14BB00B223A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF047578207A14BB00B223A5 /* JJPlayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF04757A207A14BB00B223A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF047583207A14BB00B223A5 /* JJPlayUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF047575207A14BB00B223A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF04755A207A14BB00B223A5 /* JJPlay */;
+			targetProxy = DF047574207A14BB00B223A5 /* PBXContainerItemProxy */;
+		};
+		DF047580207A14BB00B223A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF04755A207A14BB00B223A5 /* JJPlay */;
+			targetProxy = DF04757F207A14BB00B223A5 /* PBXContainerItemProxy */;
+		};
+		DF0475CF207B1A7C00B223A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IJKMediaFramework;
+			targetProxy = DF0475CE207B1A7C00B223A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF047564207A14BB00B223A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF047565207A14BB00B223A5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF047569207A14BB00B223A5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF04756A207A14BB00B223A5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF047585207A14BB00B223A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DF047586207A14BB00B223A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF047588207A14BB00B223A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D2G5A5FLQ3;
+				INFOPLIST_FILE = JJPlay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jd.JJPlay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF047589207A14BB00B223A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D2G5A5FLQ3;
+				INFOPLIST_FILE = JJPlay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jd.JJPlay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DF04758B207A14BB00B223A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D2G5A5FLQ3;
+				INFOPLIST_FILE = JJPlayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jd.JJPlayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JJPlay.app/JJPlay";
+			};
+			name = Debug;
+		};
+		DF04758C207A14BB00B223A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D2G5A5FLQ3;
+				INFOPLIST_FILE = JJPlayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jd.JJPlayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JJPlay.app/JJPlay";
+			};
+			name = Release;
+		};
+		DF04758E207A14BB00B223A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D2G5A5FLQ3;
+				INFOPLIST_FILE = JJPlayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jd.JJPlayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JJPlay;
+			};
+			name = Debug;
+		};
+		DF04758F207A14BB00B223A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D2G5A5FLQ3;
+				INFOPLIST_FILE = JJPlayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jd.JJPlayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JJPlay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF047556207A14BB00B223A5 /* Build configuration list for PBXProject "JJPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF047585207A14BB00B223A5 /* Debug */,
+				DF047586207A14BB00B223A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF047587207A14BB00B223A5 /* Build configuration list for PBXNativeTarget "JJPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF047588207A14BB00B223A5 /* Debug */,
+				DF047589207A14BB00B223A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF04758A207A14BB00B223A5 /* Build configuration list for PBXNativeTarget "JJPlayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF04758B207A14BB00B223A5 /* Debug */,
+				DF04758C207A14BB00B223A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF04758D207A14BB00B223A5 /* Build configuration list for PBXNativeTarget "JJPlayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF04758E207A14BB00B223A5 /* Debug */,
+				DF04758F207A14BB00B223A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF047553207A14BB00B223A5 /* Project object */;
+}

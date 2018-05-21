@@ -23,6 +23,7 @@
 		DF0475BE207B179000B223A5 /* libc++abi.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DF0475BD207B178F00B223A5 /* libc++abi.tbd */; };
 		DF0475C0207B17FB00B223A5 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DF0475BF207B17FB00B223A5 /* libstdc++.tbd */; };
 		DF0475E0207B429C00B223A5 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF0475D9207B429100B223A5 /* IJKMediaFramework.framework */; };
+		DF9F5A6F209977C800EEB5BB /* playersourse.mov in Resources */ = {isa = PBXBuildFile; fileRef = DF9F5A6C209977C800EEB5BB /* playersourse.mov */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +96,7 @@
 		DF0475BD207B178F00B223A5 /* libc++abi.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++abi.tbd"; path = "usr/lib/libc++abi.tbd"; sourceTree = SDKROOT; };
 		DF0475BF207B17FB00B223A5 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
 		DF0475D2207B429000B223A5 /* IJKMediaPlayer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = IJKMediaPlayer.xcodeproj; path = "ijkplayer-ios/ios/IJKMediaPlayer/IJKMediaPlayer.xcodeproj"; sourceTree = "<group>"; };
+		DF9F5A6C209977C800EEB5BB /* playersourse.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = playersourse.mov; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,7 @@
 		DF047552207A14BB00B223A5 = {
 			isa = PBXGroup;
 			children = (
+				DF9F5A6C209977C800EEB5BB /* playersourse.mov */,
 				DF0475D2207B429000B223A5 /* IJKMediaPlayer.xcodeproj */,
 				DF04755D207A14BB00B223A5 /* JJPlay */,
 				DF047576207A14BB00B223A5 /* JJPlayTests */,
@@ -349,6 +352,7 @@
 			files = (
 				DF04756B207A14BB00B223A5 /* LaunchScreen.storyboard in Resources */,
 				DF047568207A14BB00B223A5 /* Assets.xcassets in Resources */,
+				DF9F5A6F209977C800EEB5BB /* playersourse.mov in Resources */,
 				DF047566207A14BB00B223A5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -545,7 +549,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = D2G5A5FLQ3;
+				DEVELOPMENT_TEAM = 8TBM32V77U;
 				INFOPLIST_FILE = JJPlay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jd.JJPlay;
@@ -559,7 +563,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = D2G5A5FLQ3;
+				DEVELOPMENT_TEAM = 8TBM32V77U;
 				INFOPLIST_FILE = JJPlay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jd.JJPlay;
